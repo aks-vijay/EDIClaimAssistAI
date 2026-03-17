@@ -1,0 +1,17 @@
+Help me understand what's mean by DTP*472 and why it is used?
+
+How are ICD-10 codes represented in an 837 file?
+
+What segments are required for a valid 837P claim?
+
+1. First, identify CRITICAL ERRORS that would prevent claim submission, such as:
+   - Missing CLM, NM1, or HI segments
+   - Duplicate CLM01
+   - Invalid ICD-10 codes (if possible)
+2. Next, list other warnings, such as missing REF segments, optional loops, or minor format issues.
+3. Present results in two sections:
+   - Critical Errors
+   - Other Warnings
+4. Include Loop numbers, Segment, and Issue/Warning details.
+
+
